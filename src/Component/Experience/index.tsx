@@ -2,7 +2,7 @@ import { experience } from "./data";
 
 export default function Index() {
   return (
-    <div className="px-20 py-10">
+    <div className="px-4 py-5 md:px-20 md:py-10">
       <div className="text-3xl font-bold">Experience</div>
 
       <div>
@@ -10,14 +10,16 @@ export default function Index() {
           return (
             <div
               key={index}
-              className="mt-5 flex rounded-lg border bg-[#f5f5f5] py-5"
+              className="mt-5 rounded-lg border bg-[#f5f5f5] py-3 md:flex md:py-5"
             >
-              <div className="pl-[50px] pr-20 text-[##77797a]">
+              <div className="pl-3 pr-20 text-[17px] font-semibold text-[#77797a] md:pl-[50px] md:text-base">
                 {experience.year}
               </div>
-              <div className="pl-10">
-                <div className="text-xl font-bold">{experience.company}</div>
-                <ul className="list-disc text-[14px] text-[#56585a]">
+              <div className="pl-6 md:pl-10">
+                <div className="py-2 font-bold md:py-0 md:text-xl">
+                  {experience.company}
+                </div>
+                <ul className="list-disc text-xs text-[#56585a]  md:text-sm ">
                   <li>{experience.first}</li>
                   <li>{experience.second}</li>
                   <li>{experience.third}</li>
