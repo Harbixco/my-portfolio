@@ -1,0 +1,124 @@
+/* eslint-disable tailwindcss/no-custom-classname */
+import smallPicture from "/Images/smallPicture.png";
+import { data } from "./data";
+import { Key } from "react";
+
+export default function HomePage() {
+  return (
+    <div className="bg-[url('/Images/backgroundNet.png')] bg-cover bg-center py-10">
+      <div className="mx-20 grid justify-items-center rounded-lg bg-gradient-to-t from-[#edf5fd] pt-20 dark:bg-gradient-to-t dark:from-black">
+        <div className="flex rounded-full bg-[#f2f2f2] px-5 py-0.5">
+          <div className="pr-2 pt-1 text-[18px] font-bold text-[#575a5c]">
+            Hi, I'm Kayode
+          </div>
+          <div>
+            <img src={smallPicture} alt="image" />
+          </div>
+        </div>
+        <div>
+          <div className="text-[53px] font-bold dark:text-[#f5f5f5]">
+            Passionate and innovative
+          </div>
+          <div className="ml-20 text-[55px] font-bold italic text-[#1D6EC2] dark:text-black">
+            front-end developer
+          </div>
+        </div>
+
+        <div className="text-right dark:text-[#f5f5f5]">
+          I’m a passionate developer specializing in creating cutting-edge web
+          and mobile
+        </div>
+        <div className="dark:text-[#f5f5f5]">
+          applications. With a keen eye for design and a commitment to
+          excellence, I bring ideas to
+        </div>
+        <div className="dark:text-[#f5f5f5]">
+          life through code. Explore my projects to see how I blend creativity
+          with technology.
+        </div>
+
+        <div className="flex pt-8">
+          <div className="pr-3">
+            <a
+              href="/#Footer"
+              className="rounded-md bg-[#1c6ec1] px-3 py-2 font-medium text-white"
+            >
+              Reach Out
+            </a>
+          </div>
+
+          <div>
+            <a
+              href="#"
+              className="rounded-md bg-black px-3 py-2 font-medium text-white"
+            >
+              View Resume
+            </a>
+          </div>
+        </div>
+
+        <div className="flex pt-4">
+          <div>
+            <div className="pb-3 pt-4">
+              <hr />
+            </div>
+            <div className="text-[12px] font-semibold text-[#575A5C] dark:text-[#f5f5f5]">
+              YEARS OF EXPERIENCE
+            </div>
+            <div className="text-[28px] font-bold dark:text-[#1D6EC2]">4+</div>
+          </div>
+
+          <div className="px-10">
+            <div className="pb-3 pt-4">
+              <hr />
+            </div>
+            <div className="text-[12px] font-semibold text-[#575A5C] dark:text-[#f5f5f5]">
+              CLIENT SATISFACTION
+            </div>
+            <div className="text-[28px] font-bold dark:text-[#1D6EC2]">95%</div>
+          </div>
+
+          <div>
+            <div className="pb-3 pt-4">
+              <hr />
+            </div>
+            <div className="text-[12px] font-semibold text-[#575A5C] dark:text-[#f5f5f5]">
+              PROJECTS DONE
+            </div>
+            <div className="text-[28px] font-bold dark:text-[#1D6EC2]">10+</div>
+          </div>
+        </div>
+      </div>
+      <div className="darK:text-[#f5f5f5] grid justify-items-center pt-5">
+        <div>
+          Proficient in HTML, CSS, JavaScript, and frameworks such as React and
+          Typescript for building
+        </div>
+        <div className="text-center">
+          dynamic and responsive user interfaces.
+        </div>
+      </div>
+
+      <div className="mx-[480px] mt-5 grid grid-cols-5 gap-4">
+        {data.map(
+          (
+            data: { icon: string | undefined },
+            index: Key | null | undefined,
+          ) => {
+            return (
+              <div key={index} className="rounded-full border-2 text-center">
+                <div className="h-min overflow-hidden rounded-md">
+                  <img
+                    className="w-12 cursor-pointer items-center p-2 transition-all duration-500 hover:scale-125"
+                    src={data.icon}
+                    alt="image"
+                  />
+                </div>
+              </div>
+            );
+          },
+        )}
+      </div>
+    </div>
+  );
+}
