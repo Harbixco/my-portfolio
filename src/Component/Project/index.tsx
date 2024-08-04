@@ -53,7 +53,7 @@ export default function Index() {
             </div>
             <div className="pt-3 text-[#575A5C]">
               <a
-                href=""
+                href="http://gainxperience.com/auth"
                 className="rounded-md border p-2 text-[13px] md:text-[18px]"
               >
                 View Project
@@ -82,7 +82,7 @@ export default function Index() {
           </div>
           <div className="pt-3 text-[#575A5C]">
             <a
-              href=""
+              href="https://online-bookshop-system.vercel.app/"
               className="rounded-md border p-2 text-[13px] md:text-[18px]"
             >
               View Project
@@ -111,7 +111,7 @@ export default function Index() {
             </div>
             <div className="pt-3 text-[#575A5C]">
               <a
-                href=""
+                href="https://cars-rental-system.vercel.app/"
                 className="rounded-md border p-2 text-[13px] md:text-[18px]"
               >
                 View Project
@@ -139,7 +139,7 @@ export default function Index() {
             </div>
             <div className="pt-3 text-[#575A5C]">
               <a
-                href=""
+                href="#"
                 className="rounded-md border p-2 text-[13px] md:text-[18px]"
               >
                 View Project
