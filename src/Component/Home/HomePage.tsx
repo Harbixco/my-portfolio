@@ -16,7 +16,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className="pt-2 md:pt-0">
-          <div className="pl-4 text-[26px] font-bold dark:text-[#f5f5f5] md:pl-8 md:text-[53px]">
+          <div className=" text-[26px] font-bold dark:text-[#f5f5f5] md:pl-8 md:text-[53px]">
             Passionate and innovative
           </div>
           <div className="ml-[60px] pb-4 text-5xl font-extrabold italic text-[#1D6EC2] dark:text-black md:ml-[200px] md:pb-5 md:text-[55px] md:font-bold">
