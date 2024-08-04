@@ -12,10 +12,10 @@ export default function Index() {
               key={index}
               className="mt-5 rounded-lg border bg-[#f5f5f5] py-3 md:flex md:py-5"
             >
-              <div className="pl-3 pr-20 text-[17px] font-semibold text-[#77797a] md:pl-[50px] md:text-base">
+              <div className="pl-1 pr-20 text-[17px] font-semibold text-[#77797a] md:pl-[50px] md:text-base">
                 {experience.year}
               </div>
-              <div className="pl-6 md:pl-10">
+              <div className="px-3 md:pl-10">
                 <div className="py-2 font-bold md:py-0 md:text-xl">
                   {experience.company}
                 </div>
