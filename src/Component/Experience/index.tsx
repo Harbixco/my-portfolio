@@ -2,7 +2,7 @@ import { experience } from "./data";
 
 export default function Index() {
   return (
-    <div className="px-4 py-5 md:px-20 md:py-10">
+    <div className="px-4 md:px-20">
       <div className="text-3xl font-bold">Experience</div>
 
       <div>
