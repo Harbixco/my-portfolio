@@ -2,6 +2,7 @@
 import smallPicture from "/Images/smallPicture.png";
 import { data } from "./data";
 import { Key } from "react";
+import resume from "../../../public/AGBAJE ABIODUN KAYODE.pdf";
 
 export default function HomePage() {
   return (
@@ -26,7 +27,7 @@ export default function HomePage() {
         </div>
 
         <div className="hidden md:block">
-          <div className="dark:text-[#f5f5f5]">
+          <div className="pl-5 dark:text-[#f5f5f5]">
             I'm a passionate developer specializing in creating cutting-edge web
             and mobile
           </div>
@@ -34,7 +35,7 @@ export default function HomePage() {
             applications. With a keen eye for design and a commitment to
             excellence, I bring ideas to
           </div>
-          <div className="dark:text-[#f5f5f5]">
+          <div className="pl-5 dark:text-[#f5f5f5]">
             life through code. Explore my projects to see how I blend creativity
             with technology.
           </div>
@@ -60,7 +61,7 @@ export default function HomePage() {
 
           <div>
             <a
-              href="#"
+              href={resume}
               className="rounded-md bg-black px-3 py-2 font-medium text-white"
             >
               View Resume
@@ -124,7 +125,7 @@ export default function HomePage() {
         <div className="pl-[77px]">and responsive user interfaces.</div>
       </div>
 
-      <div className="mx-4 mt-5 grid grid-cols-6 gap-4 md:mx-[480px] md:grid-cols-5">
+      <div className="mx-4 mt-5 grid grid-cols-6 gap-4 md:mx-[480px] md:grid-cols-6">
         {data.map(
           (
             data: { icon: string | undefined },

@@ -22,10 +22,10 @@ export default function Index() {
                 Website Development
               </div>
             </div>
-            <div className="pt-3 text-[#575A5C]">
+            <div className="pt-3 text-white">
               <a
                 href=""
-                className="rounded-md border p-2 text-[13px] md:text-[18px]"
+                className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
                 View Project
               </a>
@@ -33,7 +33,7 @@ export default function Index() {
           </div>
         </div>
 
-        <div>
+        <div className="py-5 md:py-0">
           <div className="bg-[#f5f5f5] p-4 md:mb-0 md:ml-4">
             {" "}
             <img
@@ -51,10 +51,10 @@ export default function Index() {
                 Website Development
               </div>
             </div>
-            <div className="pt-3 text-[#575A5C]">
+            <div className="pt-3 text-white">
               <a
                 href="http://gainxperience.com/auth"
-                className="rounded-md border p-2 text-[13px] md:text-[18px]"
+                className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
                 View Project
               </a>
@@ -63,7 +63,7 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="my-5  md:my-10">
+      <div className="my-5 md:my-10">
         <div className="grid justify-items-center bg-[#f5f5f5] p-4">
           <img
             src={images.fifth}
@@ -80,10 +80,10 @@ export default function Index() {
               Website Development
             </div>
           </div>
-          <div className="pt-3 text-[#575A5C]">
+          <div className="pt-3 text-white">
             <a
               href="https://online-bookshop-system.vercel.app/"
-              className="rounded-md border p-2 text-[13px] md:text-[18px]"
+              className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
             >
               View Project
             </a>
@@ -92,7 +92,7 @@ export default function Index() {
       </div>
 
       <div className="justify-between md:flex">
-        <div>
+        <div  className="py-5 md:py-0">
           <div>
             <img
               src={images.third}
@@ -109,10 +109,10 @@ export default function Index() {
                 Website Development
               </div>
             </div>
-            <div className="pt-3 text-[#575A5C]">
+            <div className="pt-3 text-white">
               <a
                 href="https://cars-rental-system.vercel.app/"
-                className="rounded-md border p-2 text-[13px] md:text-[18px]"
+                className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
                 View Project
               </a>
@@ -137,10 +137,10 @@ export default function Index() {
                 Website Development
               </div>
             </div>
-            <div className="pt-3 text-[#575A5C]">
+            <div className="pt-3 font-bold text-white">
               <a
-                href="#"
-                className="rounded-md border p-2 text-[13px] md:text-[18px]"
+                href="hagiostech.vercel.app"
+                className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
                 View Project
               </a>
