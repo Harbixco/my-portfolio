@@ -1,4 +1,5 @@
 import bigPicture from "/Images/bigPicture.png";
+import resume from "../../../public/AGBAJE ABIODUN KAYODE.pdf";
 
 export default function Index() {
   return (
@@ -71,7 +72,7 @@ export default function Index() {
 
             <div>
               <a
-                href="#"
+                href={resume}
                 className="rounded-md bg-black px-3 py-2 font-medium text-white"
               >
                 View Resume
