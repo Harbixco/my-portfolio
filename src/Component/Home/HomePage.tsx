@@ -1,8 +1,9 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 import smallPicture from "/Images/smallPicture.png";
-import { data } from "./data";
+import { data, value } from "./data";
 import { Key } from "react";
 import resume from "../../../public/AGBAJE ABIODUN KAYODE.pdf";
+import Countup from "../Countup";
 
 export default function HomePage() {
   return (
@@ -77,7 +78,7 @@ export default function HomePage() {
             <div className=" text-[12px] font-bold text-[#575A5C] dark:text-[#f5f5f5]">
               YEARS OF EXPERIENCE
             </div>
-            <div className="text-[28px] font-bold dark:text-[#1D6EC2]">4+</div>
+            <div className="text-[28px] font-bold dark:text-[#1D6EC2]"><Countup end={value.years} />+</div>
           </div>
 
           <div className="px-10">
@@ -87,7 +88,7 @@ export default function HomePage() {
             <div className="text-[12px] font-bold text-[#575A5C] dark:text-[#f5f5f5]">
               CLIENT SATISFACTION
             </div>
-            <div className="text-[28px] font-bold dark:text-[#1D6EC2]">95%</div>
+            <div className="text-[28px] font-bold dark:text-[#1D6EC2]"> <Countup end={value.client} />%</div>
           </div>
 
           <div>
@@ -97,7 +98,9 @@ export default function HomePage() {
             <div className="text-[12px] font-bold text-[#575A5C] dark:text-[#f5f5f5]">
               PROJECTS DONE
             </div>
-            <div className="text-[28px] font-bold dark:text-[#1D6EC2]">10+</div>
+            <div className="text-[28px] font-bold dark:text-[#1D6EC2]">
+              <Countup end={value.project} /> +
+            </div>
           </div>
         </div>
       </div>
