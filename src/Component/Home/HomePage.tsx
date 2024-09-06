@@ -78,7 +78,9 @@ export default function HomePage() {
             <div className=" text-[12px] font-bold text-[#575A5C] dark:text-[#f5f5f5]">
               YEARS OF EXPERIENCE
             </div>
-            <div className="text-[28px] font-bold dark:text-[#1D6EC2]"><Countup end={value.years} />+</div>
+            <div className="text-[28px] font-bold dark:text-[#1D6EC2]">
+              <Countup end={value.years} />+
+            </div>
           </div>
 
           <div className="px-10">
@@ -88,7 +90,10 @@ export default function HomePage() {
             <div className="text-[12px] font-bold text-[#575A5C] dark:text-[#f5f5f5]">
               CLIENT SATISFACTION
             </div>
-            <div className="text-[28px] font-bold dark:text-[#1D6EC2]"> <Countup end={value.client} />%</div>
+            <div className="text-[28px] font-bold dark:text-[#1D6EC2]">
+              {" "}
+              <Countup end={value.client} />%
+            </div>
           </div>
 
           <div>
@@ -117,15 +122,11 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="px-4 pt-4 text-sm md:hidden">
-        <div className="pl-4">
-          Proficient in HTML, CSS, JavaScript, and frameworks
+      <div className="pt-4 text-sm md:hidden">
+        <div className="px-8 text-justify text-[12px]">
+          Proficient in HTML, CSS, JavaScript, and frameworks such as React and
+          Typescript for building dynamic and responsive user interfaces.
         </div>
-        <div className="pl-6">
-          {" "}
-          such as React and Typescript for building dynamic
-        </div>
-        <div className="pl-[77px]">and responsive user interfaces.</div>
       </div>
 
       <div className="mx-4 mt-5 grid grid-cols-6 gap-4 md:mx-[480px] md:grid-cols-6">
