@@ -129,7 +129,12 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="mx-4 mt-5 grid grid-cols-6 gap-4 md:mx-[480px] md:grid-cols-6">
+      <div
+        className="mx-4 mt-5 grid grid-cols-6 gap-4 md:mx-[480px] md:grid-cols-6"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         {data.map(
           (
             data: { icon: string | undefined },

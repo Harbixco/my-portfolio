@@ -2,7 +2,7 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "/Images/logo.png";
-import { DarkThemeToggle } from "flowbite-react";
+// import { DarkThemeToggle } from "flowbite-react";
 
 const navigation = [
   {
@@ -102,9 +102,9 @@ export default function Index() {
                       </div>
                     </div>
                   </div>
-                  <div className="pl-10 pt-2">
+                  {/* <div className="pl-10 pt-2">
                     <DarkThemeToggle />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
