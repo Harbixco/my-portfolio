@@ -2,7 +2,12 @@ import { experience } from "./data";
 
 export default function Index() {
   return (
-    <div className="px-4 md:px-20">
+    <div
+      className="px-4 md:px-20"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <div className="text-3xl font-bold">Experience</div>
 
       <div>

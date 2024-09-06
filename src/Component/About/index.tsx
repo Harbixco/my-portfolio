@@ -3,7 +3,7 @@ import resume from "../../../public/AGBAJE ABIODUN KAYODE.pdf";
 
 export default function Index() {
   return (
-    <div className="bg-gradient-to-t from-[#edf5fd] px-5 pb-5 md:px-20">
+    <div className="bg-gradient-to-t from-[#edf5fd] px-5 pb-5 md:px-20" >
       <div className="pt-3 text-2xl font-bold md:text-3xl">
         AGBAJE ABIODUN KAYODE
       </div>

@@ -2,10 +2,19 @@ import { images } from "./data";
 
 export default function Index() {
   return (
-    <div className="px-4 md:px-20">
+    <div className="overflow-x-hidden px-4 md:px-20">
       <div className="mb-5 font-bold md:text-3xl">Selected Projects</div>
       <div className="justify-between md:flex">
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
           <div className="bg-[#f5f5f5] p-4">
             <img
               src={images.first}
@@ -33,7 +42,17 @@ export default function Index() {
           </div>
         </div>
 
-        <div className="py-5 md:py-0">
+        <div
+          className="py-5 md:py-0"
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
           <div className="bg-[#f5f5f5] p-4 md:mb-0 md:ml-4">
             {" "}
             <img
@@ -63,7 +82,17 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="my-5 md:my-10">
+      <div
+        className="my-5 md:my-10"
+        data-aos="flip-right"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
+      >
         <div className="grid justify-items-center bg-[#f5f5f5] p-4">
           <img
             src={images.fifth}
@@ -92,7 +121,17 @@ export default function Index() {
       </div>
 
       <div className="justify-between md:flex">
-        <div  className="py-5 md:py-0">
+        <div
+          className="py-5 md:py-0"
+          data-aos="fade-right"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
           <div>
             <img
               src={images.third}
@@ -120,7 +159,16 @@ export default function Index() {
           </div>
         </div>
 
-        <div>
+        <div
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
           <div className="mb-2">
             <img
               src={images.fourth}
