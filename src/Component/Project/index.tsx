@@ -103,7 +103,7 @@ export default function Index() {
         <div className="flex justify-between pl-4 pt-2">
           <div>
             <div className="text-[13px] font-bold md:text-[18px]">
-              Online Bookshop System
+             Hellocer
             </div>
             <div className="text-[13px] text-[#575A5C] md:text-[18px]">
               Website Development
@@ -111,7 +111,7 @@ export default function Index() {
           </div>
           <div className="pt-3 text-white">
             <a
-              href="https://online-bookshop-system.vercel.app/"
+              href="https://www.hellocer.com/"
               className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
             >
               View Project
