@@ -179,7 +179,7 @@ export default function Index() {
           <div className="flex justify-between pt-2 md:pl-4">
             <div>
               <div className="text-[13px] font-bold md:text-[18px]">
-                My Portfolio
+              Korpeatech Technologies
               </div>
               <div className="text-[13px] text-[#575A5C] md:text-[18px]">
                 Website Development
@@ -187,7 +187,7 @@ export default function Index() {
             </div>
             <div className="pt-3 font-bold text-white">
               <a
-                href="hagiostech.vercel.app"
+                href="https://korpeatech.com/"
                 className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
                 View Project
