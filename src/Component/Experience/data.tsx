@@ -1,6 +1,6 @@
 export const experience = [
   {
-    year: <div className="pl-4">May 2024 - Present</div>,
+    year: <div className="pl-4">May 2024 - October 2024</div>,
     company: "Front End Developer at Expansion Cyber Technologies",
     first:
       "At Expansion Cyber Technologies, I design and implement user-friendly interfaces for cybersecurity applications.",
