@@ -64,7 +64,7 @@ export default function Index() {
           <div className="flex justify-between pl-4 pt-2">
             <div>
               <div className="text-[13px] font-bold md:text-[18px]">
-                Xperience
+                Trashcycle
               </div>
               <div className="text-[13px] text-[#575A5C] md:text-[18px]">
                 Website Development
@@ -72,7 +72,7 @@ export default function Index() {
             </div>
             <div className="pt-3 text-white">
               <a
-                href="http://gainxperience.com/auth"
+                href="https://trashcycle.vercel.app/"
                 className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
                 View Project
@@ -102,9 +102,7 @@ export default function Index() {
         </div>
         <div className="flex justify-between pl-4 pt-2">
           <div>
-            <div className="text-[13px] font-bold md:text-[18px]">
-             Hellocer
-            </div>
+            <div className="text-[13px] font-bold md:text-[18px]">Hellocer</div>
             <div className="text-[13px] text-[#575A5C] md:text-[18px]">
               Website Development
             </div>
@@ -142,10 +140,10 @@ export default function Index() {
           <div className="flex justify-between pt-2 md:pl-4">
             <div>
               <div className="text-[13px] font-bold md:text-[18px]">
-               Blog Website
+                Blog Website
               </div>
               <div className="mb-5 text-[13px] text-[#575A5C] md:text-[18px]">
-               Wordpress Development
+                Wordpress Development
               </div>
             </div>
             <div className="pt-3 text-white">
@@ -179,7 +177,7 @@ export default function Index() {
           <div className="flex justify-between pt-2 md:pl-4">
             <div>
               <div className="text-[13px] font-bold md:text-[18px]">
-              Korpeatech Technologies
+                Korpeatech Technologies
               </div>
               <div className="text-[13px] text-[#575A5C] md:text-[18px]">
                 Website Development
