@@ -8,9 +8,12 @@ export default function Index() {
   return (
     <div className="bg-[#010507]">
       <div className="bg-[url('/Images/thirdBackground.png')] bg-cover bg-center px-3 py-4 md:px-[250px] md:py-10">
-        <div className="rounded-lg bg-white" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+        <div
+          className="rounded-lg bg-white"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <div className="bg-[url('/Images/secondBackground.png')] bg-cover bg-center">
             <div className="grid justify-items-center py-6 text-sm text-black md:text-base">
               <div>Ready to bring your ideas to life? Let's</div>
@@ -73,7 +76,7 @@ export default function Index() {
               <div className="pt-0.5">
                 <img src={footerlogo} alt="images" className="w-3" />
               </div>
-              <div>2024</div>
+              <div>2025</div>
               <div>All rights reserved</div>
             </div>
             <div className="flex gap-1">
@@ -109,9 +112,10 @@ export default function Index() {
                 <div className="pt-0.5">
                   <img src={footerlogo} alt="images" className="w-3" />
                 </div>
-                <div>2024</div>
+                <div>2025</div>
                 <div>All rights reserved</div>
               </div>
+
               <div className="flex gap-1">
                 <div>Designed by</div>
                 <div className="text-[#1e6cc3]">

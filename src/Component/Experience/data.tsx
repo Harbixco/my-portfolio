@@ -1,5 +1,18 @@
 export const experience = [
   {
+    year: <div className="pl-4">April 2025 - Present</div>,
+    company: "Assistant Software Instructor at SQi College of ICT",
+    first:
+      "Assisting lead lecturers in delivering engaging coding lessons and workshops.",
+    second:
+      "Providing one-on-one and group support to students on various programming concepts and projects.",
+    third:
+      "Grading assignments, providing constructive feedback, and tracking student progress.",
+    fourth:
+      "Developing supplementary teaching materials, including code examples and exercises.",
+  },
+
+  {
     year: <div className="pl-4">May 2024 - October 2024</div>,
     company: "Front End Developer at Expansion Cyber Technologies",
     first:
@@ -37,10 +50,8 @@ export const experience = [
   {
     year: "June 2020 - Mar. 2021",
     company: "Front End Developer at Deebezt Tech.",
-    first:
-      "Responsible for developing and maintaining web applications.",
-    second:
-      "Developed front-end features using HTML, CSS, and JavaScript.",
+    first: "Responsible for developing and maintaining web applications.",
+    second: "Developed front-end features using HTML, CSS, and JavaScript.",
     third:
       "Participated in code reviews to maintain high-quality code standards.",
     fourth:

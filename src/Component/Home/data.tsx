@@ -16,8 +16,13 @@ import git from "/Images/git.png";
 import github from "/Images/github.png";
 import wordpress from "/Images/wordpress.png";
 import react from "/Images/react.png";
+import firebase from "/Images/firebase.png";
+import node from "/Images/node.png";
+import express from "/Images/express.png";
+import mongodb from "/Images/mongodb.jpg";
 
 // ICONS ARE FROM REACT-ICONIFY
+
 export const data = [
   {
     icon: html,
@@ -50,7 +55,7 @@ export const data = [
   {
     icon: react,
   },
-  
+
   {
     icon: typescript,
   },
@@ -69,10 +74,22 @@ export const data = [
   {
     icon: wordpress,
   },
+  {
+    icon: firebase,
+  },
+  {
+    icon: node,
+  },
+  {
+    icon: express,
+  },
+  {
+    icon: mongodb,
+  },
 ];
 
 export const value = {
   years: 4,
   client: 95,
-  project: 10
-}
+  project: 20,
+};
