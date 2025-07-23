@@ -3,7 +3,9 @@ import { images } from "./data";
 export default function Index() {
   return (
     <div className="overflow-x-hidden px-4 md:px-20">
-      <div className="mb-5 font-bold md:text-3xl">Selected Projects</div>
+      <div className="pb-2 pl-5 font-bold text-[#1D6EC2] md:text-3xl">
+        SELECTED PROJECTS
+      </div>
       <div className="justify-between md:flex">
         <div
           data-aos="fade-right"
@@ -33,7 +35,7 @@ export default function Index() {
             </div>
             <div className="pt-3 text-white">
               <a
-                href=""
+                href="https://language-translators-zeta.vercel.app/"
                 className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
                 View Project
@@ -95,21 +97,23 @@ export default function Index() {
       >
         <div className="grid justify-items-center bg-[#f5f5f5] p-4">
           <img
-            src={images.fifth}
+            src={images.fourth}
             alt="image"
             className="h-[400px] w-[500px] rounded-lg"
           />
         </div>
         <div className="flex justify-between pl-4 pt-2">
           <div>
-            <div className="text-[13px] font-bold md:text-[18px]">Hellocer</div>
+            <div className="text-[13px] font-bold md:text-[18px]">
+              Korpeatech Technologies
+            </div>
             <div className="text-[13px] text-[#575A5C] md:text-[18px]">
               Website Development
             </div>
           </div>
-          <div className="pt-3 text-white">
+          <div className="pt-3 font-bold text-white">
             <a
-              href="https://www.hellocer.com/"
+              href="https://korpeatech.com/"
               className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
             >
               View Project
@@ -169,7 +173,7 @@ export default function Index() {
         >
           <div className="mb-2">
             <img
-              src={images.fourth}
+              src={images.fifth}
               alt="image"
               className="h-[200px] w-[500px] md:h-[400px]"
             />
@@ -177,15 +181,15 @@ export default function Index() {
           <div className="flex justify-between pt-2 md:pl-4">
             <div>
               <div className="text-[13px] font-bold md:text-[18px]">
-                Korpeatech Technologies
+                Hellocer
               </div>
               <div className="text-[13px] text-[#575A5C] md:text-[18px]">
                 Website Development
               </div>
             </div>
-            <div className="pt-3 font-bold text-white">
+            <div className="pt-3 text-white">
               <a
-                href="https://korpeatech.com/"
+                href="https://hellocer.vercel.app/"
                 className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
                 View Project

@@ -8,23 +8,28 @@ export default function Index() {
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000"
     >
-      <div className="text-3xl font-bold">Experience</div>
+      <div className="pb-2 pl-5 font-bold text-[#1D6EC2] md:text-3xl">
+        PROFESSIONAL EXPERIENCES
+      </div>
 
       <div>
         {experience.map((experience, index) => {
           return (
             <div
               key={index}
-              className="mt-5 rounded-lg border bg-[#f5f5f5] py-3 md:flex md:py-5"
+              className="mt-5  rounded-lg border bg-[#f5f5f5] py-3 md:grid md:grid-cols-[30%_70%] md:py-5"
             >
-              <div className="pl-1 pr-20 text-[17px] font-semibold text-[#77797a] md:pl-[50px] md:text-base">
-                {experience.year}
+              <div className=" pl-2 text-[14px] font-semibold text-[#77797a] md:pl-[20px] md:text-[15px]">
+                <div>{experience.year}</div>
+                <div>{experience.name}</div>
+                <div>{experience.site}</div>
               </div>
+
               <div className="px-3 md:pl-10">
-                <div className="py-2 font-bold md:py-0 md:text-xl">
+                <div className="py-2 font-bold md:py-0 md:pb-2 md:text-xl">
                   {experience.company}
                 </div>
-                <ul className="list-disc text-xs text-[#56585a]  md:text-sm ">
+                <ul className="list-disc pl-2 text-xs  text-[#56585a] md:text-sm">
                   <li>{experience.first}</li>
                   <li>{experience.second}</li>
                   <li>{experience.third}</li>
