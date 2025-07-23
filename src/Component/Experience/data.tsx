@@ -1,6 +1,8 @@
 export const experience = [
   {
-    year: <div className="pl-4">April 2025 - Present</div>,
+    year: "April 2025 - Present",
+    name: "Ogbomoso",
+    site: "Onsite (National Youth Service Corps)",
     company: "Assistant Software Instructor at SQi College of ICT",
     first:
       "Assisting lead lecturers in delivering engaging coding lessons and workshops.",
@@ -11,9 +13,10 @@ export const experience = [
     fourth:
       "Developing supplementary teaching materials, including code examples and exercises.",
   },
-
   {
-    year: <div className="pl-4">May 2024 - October 2024</div>,
+    year: "May 2024 - October",
+    name: "Osogbo",
+    site: "Onsite",
     company: "Front End Developer at Expansion Cyber Technologies",
     first:
       "At Expansion Cyber Technologies, I design and implement user-friendly interfaces for cybersecurity applications.",
@@ -27,6 +30,8 @@ export const experience = [
 
   {
     year: "Jan. 2024 - April 2024",
+    name: "Lagos",
+    site: "Remote",
     company: "Front End Developer at Digital Creative Dev.",
     first:
       "Worked on developing and enhancing web applications for various clients.",
@@ -37,6 +42,8 @@ export const experience = [
 
   {
     year: "June 2021 - June 2022",
+    name: "Osogbo",
+    site: "Onsite",
     company: "Front End Developer at NimbleByte Global",
     first:
       "Focused on building scalable front-end systems for enterprise applications.",
@@ -49,6 +56,8 @@ export const experience = [
 
   {
     year: "June 2020 - Mar. 2021",
+    name: "lagos",
+    site: "Onsite",
     company: "Front End Developer at Deebezt Tech.",
     first: "Responsible for developing and maintaining web applications.",
     second: "Developed front-end features using HTML, CSS, and JavaScript.",

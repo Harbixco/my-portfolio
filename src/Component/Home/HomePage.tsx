@@ -1,7 +1,6 @@
 /* eslint-disable tailwindcss/no-custom-classname */
 import smallPicture from "/Images/smallPicture.png";
-import { data, value } from "./data";
-import { Key } from "react";
+import { value } from "./data";
 import resume from "../../../public/AGBAJE ABIODUN KAYODE.pdf";
 import Countup from "../Countup";
 
@@ -127,32 +126,6 @@ export default function HomePage() {
           Proficient in HTML, CSS, JavaScript, and frameworks such as React and
           Typescript for building dynamic and responsive user interfaces.
         </div>
-      </div>
-
-      <div
-        className="mx-4 mt-5 grid grid-cols-6 gap-4 md:mx-[480px] md:grid-cols-6"
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
-      >
-        {data.map(
-          (
-            data: { icon: string | undefined },
-            index: Key | null | undefined,
-          ) => {
-            return (
-              <div key={index} className="rounded-full border-2 text-center">
-                <div className="h-min overflow-hidden rounded-md">
-                  <img
-                    className="w-12 cursor-pointer items-center p-2 transition-all duration-500 hover:scale-125 md:w-12"
-                    src={data.icon}
-                    alt="image"
-                  />
-                </div>
-              </div>
-            );
-          },
-        )}
       </div>
     </div>
   );
