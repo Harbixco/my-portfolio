@@ -8,7 +8,7 @@ export default function Skills() {
           TECH STACKS
         </div>
 
-        <div className="flex  flex-col items-center justify-center bg-gray-100 p-2">
+        <div className="flex  flex-col items-center justify-center bg-gray-100 p-2 md:p-5 ">
           <main className="w-full grow">
             <div
               data-aos="flip-right"
@@ -28,7 +28,7 @@ export default function Skills() {
                       alt="image"
                     />
                   </p>
-                  <p className="text-center text-sm font-medium leading-tight text-gray-800 sm:text-base md:mt-4">
+                  <p className="pb-2 text-center text-sm font-medium leading-tight text-gray-800 sm:text-base md:mt-4 md:pb-0">
                     {tech.name}
                   </p>
                 </div>

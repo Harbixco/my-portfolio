@@ -5,6 +5,7 @@ import chakraui from "/Images/chakraui.png";
 import sass from "/Images/sass.png";
 import tailwind from "/Images/tailwind.png";
 import mui from "/Images/mui.png";
+import ant from "/Images/ant.png";
 import redux from "/Images/redux.png";
 import js from "/Images/js.png";
 import typescript from "/Images/typescript.png";
@@ -24,7 +25,7 @@ export const techStackData = [
   { id: 5, name: "Sass", icon: sass, iconFallback: "Sass" },
   { id: 6, name: "Tailwind CSS", icon: tailwind },
   { id: 7, name: "Material-UI", icon: mui },
-  { id: 8, name: "redux", icon: redux },
+  { id: 8, name: "Ant-UI", icon: ant },
   { id: 9, name: "JavaScript", icon: js },
   { id: 10, name: "React js", icon: react },
   { id: 11, name: "TypeScript", icon: typescript },

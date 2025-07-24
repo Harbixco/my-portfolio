@@ -14,7 +14,7 @@ export const experience = [
       "Developing supplementary teaching materials, including code examples and exercises.",
   },
   {
-    year: "May 2024 - October",
+    year: "May 2024 - October 2024",
     name: "Osogbo",
     site: "Onsite",
     company: "Front End Developer at Expansion Cyber Technologies",
