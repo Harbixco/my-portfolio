@@ -24,21 +24,19 @@ export default function Index() {
               className="h-[200px] w-[500px] md:h-[400px]"
             />
           </div>
-          <div className="mb-5 flex justify-between pt-2">
+          <div className="mb-5 grid grid-cols-[80%_20%] justify-between pt-2">
             <div>
               <div className="text-[13px] font-bold md:text-[18px]">
                 Language Translator System
               </div>
-              <div className="text-[13px] text-[#575A5C] md:text-[18px]">
-                Website Development
-              </div>
+              <div className="text-[13px] text-[#575A5C] md:text-[18px]"></div>
             </div>
             <div className="pt-3 text-white">
               <a
                 href="https://language-translators-zeta.vercel.app/"
                 className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
-                View Project
+                Live Demo
               </a>
             </div>
           </div>
@@ -77,7 +75,7 @@ export default function Index() {
                 href="https://trashcycle.vercel.app/"
                 className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
-                View Project
+                Live Demo
               </a>
             </div>
           </div>
@@ -116,7 +114,7 @@ export default function Index() {
               href="https://korpeatech.com/"
               className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
             >
-              View Project
+              Live Demo
             </a>
           </div>
         </div>
@@ -155,7 +153,7 @@ export default function Index() {
                 href="https://menfertilityhub.com/"
                 className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
-                View Project
+                Live Demo
               </a>
             </div>
           </div>
@@ -192,7 +190,7 @@ export default function Index() {
                 href="https://hellocer.vercel.app/"
                 className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
-                View Project
+                Live Demo
               </a>
             </div>
           </div>
