@@ -19,14 +19,14 @@ export default function Index() {
               key={index}
               className="mt-5  rounded-lg border bg-[#f5f5f5] py-3 md:grid md:grid-cols-[30%_70%] md:py-5"
             >
-              <div className=" pl-2 text-[14px] font-semibold text-[#77797a] md:pl-[20px] md:text-[15px]">
+              <div className=" pl-2 text-[12px] font-semibold text-[#77797a] md:pl-[20px] md:text-[15px]">
                 <div>{experience.year}</div>
                 <div>{experience.name}</div>
                 <div>{experience.site}</div>
               </div>
 
               <div className="px-3 md:pl-10">
-                <div className="py-2 font-bold md:py-0 md:pb-2 md:text-xl">
+                <div className="py-2 text-[14px] font-bold md:py-0 md:pb-2 md:text-xl">
                   {experience.company}
                 </div>
                 <ul className="list-disc pl-2 text-xs  text-[#56585a] md:text-sm">

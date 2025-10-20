@@ -34,7 +34,7 @@ export default function Index() {
             <div className="pt-3 text-white">
               <a
                 href="https://language-translators-zeta.vercel.app/"
-                className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
+                className="rounded-md border bg-[#1D6EC2] p-2 text-[11px] md:text-[18px]"
               >
                 Live Demo
               </a>
