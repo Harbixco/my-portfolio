@@ -1,7 +1,7 @@
 export const experience = [
   {
     year: "April 2025 - Present",
-    name: "Ogbomoso",
+    name: "Ogbomoso, Oyo State, Nigeria",
     site: "Onsite (National Youth Service Corps)",
     company: "Assistant Software Instructor at SQi College of ICT",
     first:
@@ -15,7 +15,7 @@ export const experience = [
   },
   {
     year: "May 2024 - October 2024",
-    name: "Osogbo",
+    name: "Osogbo, Osun State, Nigeria",
     site: "Onsite",
     company: "Front End Developer at Expansion Cyber Technologies",
     first:
@@ -30,7 +30,7 @@ export const experience = [
 
   {
     year: "Jan. 2024 - April 2024",
-    name: "Lagos",
+    name: "Lagos State, Nigeria",
     site: "Remote",
     company: "Front End Developer at Digital Creative Dev.",
     first:
@@ -42,7 +42,7 @@ export const experience = [
 
   {
     year: "June 2021 - June 2022",
-    name: "Osogbo",
+    name: "Osogbo, Osun State, Nigeria",
     site: "Onsite",
     company: "Front End Developer at NimbleByte Global",
     first:
@@ -56,7 +56,7 @@ export const experience = [
 
   {
     year: "June 2020 - Mar. 2021",
-    name: "lagos",
+    name: "Lagos State, Nigeria",
     site: "Onsite",
     company: "Front End Developer at Deebezt Tech.",
     first: "Responsible for developing and maintaining web applications.",
