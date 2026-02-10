@@ -132,6 +132,7 @@ export default function Index() {
           data-aos-once="false"
           data-aos-anchor-placement="top-center"
         >
+          
           <div>
             <img
               src={images.third}
@@ -142,15 +143,15 @@ export default function Index() {
           <div className="flex justify-between pt-2 md:pl-4">
             <div>
               <div className="text-[13px] font-bold md:text-[18px]">
-                Blog Website
+                Nimblebyte Global
               </div>
               <div className="mb-5 text-[13px] text-[#575A5C] md:text-[18px]">
-                Wordpress Development
+                Website Development
               </div>
             </div>
             <div className="pt-3 text-white">
               <a
-                href="https://menfertilityhub.com/"
+                href="https://nimble-byte.com/"
                 className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
                 Live Demo
@@ -179,7 +180,7 @@ export default function Index() {
           <div className="flex justify-between pt-2 md:pl-4">
             <div>
               <div className="text-[13px] font-bold md:text-[18px]">
-                Hellocer
+                Nimblebash
               </div>
               <div className="text-[13px] text-[#575A5C] md:text-[18px]">
                 Website Development
@@ -187,7 +188,7 @@ export default function Index() {
             </div>
             <div className="pt-3 text-white">
               <a
-                href="https://hellocer.vercel.app/"
+                href="https://nimblebash.com/onboarding"
                 className="rounded-md border bg-[#1D6EC2] p-2 text-[13px] md:text-[18px]"
               >
                 Live Demo
