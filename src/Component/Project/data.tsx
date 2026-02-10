@@ -1,13 +1,13 @@
 import translator from "/Images/translator.png";
 import trashcycle from "/Images/trashcycle.png";
-import hellocer from "/Images/hellocer.svg";
-import blog from "/Images/blog.webp";
+import nimblebasa from "/Images/nimblebasa.jpg";
+import nimble from "/Images/nimble.jpg";
 import korpea from "/Images/korpea.jpg";
 
 export const images = {
   first: translator,
   second: trashcycle,
-  third: blog,
+  third: nimble,
   fourth: korpea,
-  fifth: hellocer,
+  fifth: nimblebasa,
 };

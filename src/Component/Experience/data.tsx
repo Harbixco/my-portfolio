@@ -1,4 +1,17 @@
 export const experience = [
+    {
+    year: "June 2021 - June 2022",
+    name: "Lagos State, Nigeria",
+    site: "Remote",
+    company: "Front End Developer at NimbleByte Global",
+    first:
+      "Focused on building scalable front-end systems for enterprise applications.",
+    second: "Created dynamic, interactive dashboards for data visualization.",
+    third:
+      "Implemented state management solutions to handle complex UI states.",
+    fourth:
+      "Collaborated with UX designers to enhance user experience across applications.",
+  },
   {
     year: "April 2025 - Present",
     name: "Ogbomoso, Oyo State, Nigeria",
@@ -38,20 +51,6 @@ export const experience = [
     second: "Developed custom web components using React and Vue.js.",
     third: "Ensured cross-browser compatibility and mobile responsiveness.",
     fourth: "Contributed to the redesign of client websites to improve UX/UI",
-  },
-
-  {
-    year: "June 2021 - June 2022",
-    name: "Osogbo, Osun State, Nigeria",
-    site: "Onsite",
-    company: "Front End Developer at NimbleByte Global",
-    first:
-      "Focused on building scalable front-end systems for enterprise applications.",
-    second: "Created dynamic, interactive dashboards for data visualization.",
-    third:
-      "Implemented state management solutions to handle complex UI states.",
-    fourth:
-      "Collaborated with UX designers to enhance user experience across applications.",
   },
 
   {

@@ -76,7 +76,7 @@ export default function Index() {
               <div className="pt-0.5">
                 <img src={footerlogo} alt="images" className="w-3" />
               </div>
-              <div>2025</div>
+              <div>2026 </div>
               <div>All rights reserved</div>
             </div>
             <div className="flex gap-1">
@@ -112,7 +112,7 @@ export default function Index() {
                 <div className="pt-0.5">
                   <img src={footerlogo} alt="images" className="w-3" />
                 </div>
-                <div>2025</div>
+                <div>2026</div>
                 <div>All rights reserved</div>
               </div>
 
