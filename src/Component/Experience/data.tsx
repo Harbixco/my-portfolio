@@ -1,6 +1,6 @@
 export const experience = [
     {
-    year: "June 2021 - June 2022",
+    year: "November 2025 -April 2026",
     name: "Lagos State, Nigeria",
     site: "Remote",
     company: "Front End Developer at NimbleByte Global",
