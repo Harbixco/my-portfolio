@@ -97,7 +97,7 @@ export default function Index() {
                           href="/#Footer"
                           className="rounded-md bg-[#1c6ec1] px-3 py-2 font-medium text-white md:ml-20 xl:ml-[130px]"
                         >
-                          Reach Out
+                         Hire me
                         </a>
                       </div>
                     </div>

@@ -6,6 +6,7 @@ import Footer from "../Footer";
 import Header from "../Header";
 import HomePage from "./HomePage";
 import Skills from "../Skill/Skills";
+import Offers from "../Offer/Offers";
 
 export default function Index() {
   return (
@@ -16,6 +17,10 @@ export default function Index() {
         {/* HOME COMPONENT*/}
         <div>
           <HomePage />
+        </div>
+
+        <div>
+          <Offers />
         </div>
 
         <div>
