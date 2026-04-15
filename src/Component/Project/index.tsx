@@ -23,6 +23,7 @@ export default function Index() {
       features: ["Multi-language", "Fast response", "Clean UI"],
       image: images.first,
       link: "https://language-translators-zeta.vercel.app/",
+      skill: "React | Node js | Tailwind | Vercel",
     },
     {
       id: 2,
@@ -31,6 +32,7 @@ export default function Index() {
       features: ["Eco-focused", "Responsive", "User-friendly"],
       image: images.second,
       link: "https://trashcycle.vercel.app/",
+      skill: "React | Node js | Typescript | Firebase | Tailwind | Vercel",
     },
     {
       id: 3,
@@ -39,6 +41,7 @@ export default function Index() {
       features: ["Business-focused", "Modern UI", "Fast loading"],
       image: images.fourth,
       link: "https://korpeatech.com/",
+      skill: "React | Node js | Tailwind | Vercel",
     },
     {
       id: 4,
@@ -47,6 +50,7 @@ export default function Index() {
       features: ["Responsive", "Modern UI", "Conversion-focused"],
       image: images.third,
       link: "https://nimble-byte.com/",
+      skill: "React | Node js | Tailwind | AWS",
     },
     {
       id: 5,
@@ -55,6 +59,7 @@ export default function Index() {
       features: ["User roles", "Onboarding flow", "Mobile-friendly"],
       image: images.fifth,
       link: "https://nimblebash.com/onboarding",
+      skill: "React | Node js | Tailwind | AWS",
     },
     {
       id: 6,
@@ -63,18 +68,19 @@ export default function Index() {
       features: ["Product catalog", "Responsive design", "Smooth UX"],
       image: images.sixth,
       link: "https://affordablegadgetshub.vercel.app/",
+      skill: "React | Typescript | Tailwind | Vercel",
     },
   ];
 
   return (
-    <div className="px-4 md:px-20">
+    <div className="mx-auto px-4 md:max-w-[1220px] md:px-20">
       {/* Header */}
       <h1 className="mb-8 text-xl font-bold text-[#1D6EC2] md:text-3xl">
         SELECTED PROJECTS
       </h1>
 
-      {/* Grid */}
-      <div className="grid gap-10 md:grid-cols-2">
+      {/* GRID (YOUR REQUIRED SETUP) */}
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-10">
         {projects.map((project, index) => (
           <div
             key={project.id}
@@ -82,64 +88,64 @@ export default function Index() {
               index % 3 === 0
                 ? "fade-up"
                 : index % 2 === 0
-                ? "fade-right"
-                : "fade-left"
+                  ? "fade-right"
+                  : "fade-left"
             }
-            data-aos-delay={index * 100}
-            className="group rounded-2xl bg-[#f5f5f5] p-4 shadow-sm transition hover:shadow-lg"
+            data-aos-delay={Math.min(index * 80, 300)}
+            className="group rounded-2xl bg-[#f5f5f5] p-3 shadow-sm transition hover:shadow-lg md:p-4"
           >
-            {/* Image */}
+            {/* IMAGE */}
             <div className="overflow-hidden rounded-xl">
               <img
                 src={project.image}
                 alt={project.title}
-                className="h-[220px] w-full object-cover transition duration-500 group-hover:scale-105 md:h-[300px]"
+                className="aspect-[16/9] w-full object-cover transition duration-500 group-hover:scale-105"
               />
             </div>
 
-            {/* Content */}
+            {/* CONTENT */}
             <div className="mt-4">
-              <h2 className="text-sm font-bold md:text-lg">
-                {project.title}
-              </h2>
+              <h2 className="text-sm font-bold md:text-lg">{project.title}</h2>
 
-              <p className="text-xs text-gray-500 md:text-sm">
+              <p className="mt-1 text-xs text-gray-500 md:text-sm">
                 {project.desc}
               </p>
 
-              {/* Features */}
               <p className="mt-2 text-[11px] text-gray-400 md:text-xs">
                 👉 {project.features.join(" • ")}
               </p>
 
-              {/* Expandable Details */}
+              {/* EXPANDABLE TEXT */}
               {activeId === project.id && (
-                <div className="mt-2 text-xs text-gray-600">
-                  Built with focus on performance, scalability, and seamless user
-                  experience to solve real-world problems effectively.
+                <div>
+                  <div className="mt-2 text-xs leading-relaxed text-gray-600">
+                    Built with focus on performance, scalability, and seamless
+                    user experience to solve real-world problems effectively.
+                  </div>
+
+                  <div className="mt-2 text-xs leading-relaxed text-gray-600">
+                    {" "}
+                    Tech Stack: {project.skill}
+                  </div>
                 </div>
               )}
 
-              {/* Buttons */}
-              <div className="mt-4 flex items-center justify-between">
+              {/* BUTTONS */}
+              <div className="mt-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
                 <button
                   onClick={() =>
-                    setActiveId(
-                      activeId === project.id ? null : project.id
-                    )
+                    setActiveId(activeId === project.id ? null : project.id)
                   }
                   className="text-xs text-gray-600 transition hover:text-black hover:underline md:text-sm"
                 >
-                  {activeId === project.id
-                    ? "Hide Details"
-                    : "View Details"}
+                  {activeId === project.id ? "Hide Details" : "View Details"}
                 </button>
 
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-lg bg-[#1D6EC2] px-4 py-1.5 text-xs text-white transition hover:bg-blue-700 md:text-sm"
+                  className="rounded-lg bg-[#1D6EC2] px-4 py-2 text-center text-xs text-white transition hover:bg-blue-700 md:text-sm"
                 >
                   Live Demo →
                 </a>

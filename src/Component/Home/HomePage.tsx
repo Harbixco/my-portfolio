@@ -28,25 +28,18 @@ export default function HomePage() {
 
         <div className="hidden md:block">
           <div className="pl-5 dark:text-[#f5f5f5]">
-            I'm a passionate developer specializing in creating cutting-edge web
-            and mobile
+            I build fast, responsive websites and web applications that help
           </div>
           <div className="dark:text-[#f5f5f5]">
-            applications. With a keen eye for design and a commitment to
-            excellence, I bring ideas to
-          </div>
-          <div className="pl-5 dark:text-[#f5f5f5]">
-            life through code. Explore my projects to see how I blend creativity
-            with technology.
+            businesses attract customers, improve user experience, and grow
+            online.
           </div>
         </div>
 
         <div className="px-4 text-justify text-sm md:hidden">
-          {" "}
-          I'm a passionate developer specializing in creating cutting-edge web
-          and mobile applications. With a keen eye for design and a commitment
-          to excellence, I bring ideas to life through code. Explore my projects
-          to see how I blend creativity with technology.
+          I build fast, responsive websites and web applications that help
+          businesses attract customers, improve user experience, and grow
+          online.
         </div>
 
         <div className="flex pt-8">
@@ -55,7 +48,7 @@ export default function HomePage() {
               href="/#Footer"
               className="rounded-md bg-[#1c6ec1] px-3 py-2 font-medium text-white"
             >
-              Reach Out
+              Hire me
             </a>
           </div>
 
@@ -106,25 +99,6 @@ export default function HomePage() {
               <Countup end={value.project} /> +
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="hidden md:block">
-        <div className="darK:text-[#f5f5f5] grid justify-items-center pt-5">
-          <div>
-            Proficient in HTML, CSS, JavaScript, and frameworks such as React
-            and Typescript for building
-          </div>
-          <div className="text-center">
-            dynamic and responsive user interfaces.
-          </div>
-        </div>
-      </div>
-
-      <div className="pt-4 text-sm md:hidden">
-        <div className="px-8 text-justify text-[12px]">
-          Proficient in HTML, CSS, JavaScript, and frameworks such as React and
-          Typescript for building dynamic and responsive user interfaces.
         </div>
       </div>
     </div>

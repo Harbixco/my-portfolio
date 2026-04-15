@@ -3,10 +3,10 @@ import { techStackData } from "./data";
 export default function Skills() {
   return (
     <>
-      <div className="px-4 md:px-20">
-        <div className="pb-2 pl-5 font-bold text-[#1D6EC2] md:text-3xl">
+      <div className="mt-5 px-4 md:px-20">
+        <h1 className="mb-8 text-xl font-bold text-[#1D6EC2] md:text-3xl">
           TECH STACKS
-        </div>
+        </h1>
 
         <div className="flex  flex-col items-center justify-center bg-gray-100 p-2 md:p-5 ">
           <main className="w-full grow">

@@ -23,7 +23,7 @@ export default function Index() {
               <div className="pt-7">
                 <a
                   href="https://agbajeabiodunkay@gmail.com"
-                  className="bg- rounded-md bg-black px-3 py-2 font-medium text-white"
+                  className="bg- rounded-md bg-[#1c6ec1] px-3 py-2 font-medium text-white"
                 >
                   Send Email
                 </a>
