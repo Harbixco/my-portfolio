@@ -50,10 +50,10 @@ export default function Index() {
           {/* Buttons */}
           <div className="mt-6 flex justify-center gap-3 md:justify-end">
             <a
-              href="/#Footer"
+             href="https://wa.me/+2349039415354?text=Hello,+I+want+to+give+you+a+project."
               className="rounded-md bg-[#1e6cc3] px-4 py-2 text-sm font-medium text-white hover:opacity-90 md:text-base"
             >
-              Contact me
+             Hire me
             </a>
 
             <a

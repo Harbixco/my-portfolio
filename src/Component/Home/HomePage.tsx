@@ -45,7 +45,7 @@ export default function HomePage() {
         <div className="flex pt-8">
           <div className="pr-3">
             <a
-              href="/#Footer"
+              href="https://wa.me/+2349039415354?text=Hello,+I+want+to+give+you+a+project."
               className="rounded-md bg-[#1c6ec1] px-3 py-2 font-medium text-white"
             >
               Hire me
