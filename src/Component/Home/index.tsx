@@ -10,7 +10,7 @@ import Offers from "../Offer/Offers";
 
 export default function Index() {
   return (
-    <>
+    <div className="overflow-hidden">
       <Header />
 
       <div>
@@ -46,6 +46,6 @@ export default function Index() {
       <div id="Footer">
         <Footer />
       </div>
-    </>
+    </div>
   );
 }
