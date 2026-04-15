@@ -18,10 +18,9 @@ export default function Index() {
           <HomePage />
         </div>
 
-         <div>
+        <div>
           <Skills />
         </div>
-        
 
         {/* PROJECT COMPONENT*/}
         <div id="Project" className="my-10">
