@@ -1,42 +1,85 @@
-import { techStackData } from "./data";
+import { categorizedSkills } from "./data";
+import { Cpu, Layout, Server, Terminal } from "lucide-react";
 
 export default function Skills() {
-  return (
-    <>
-      <div className="mt-5 px-4 md:px-20">
-        <h1 className="mb-8 text-xl font-bold text-[#1D6EC2] md:text-3xl">
-          TECH STACKS
-        </h1>
+  const categoryIcons = [Layout, Cpu, Server, Terminal];
 
-        <div className="flex  flex-col items-center justify-center bg-gray-100 p-2 md:p-5 ">
-          <main className="w-full grow">
-            <div
-              data-aos="flip-right"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-              className="grid grid-cols-4 justify-items-center gap-2 sm:grid-cols-3 sm:gap-8 md:grid-cols-4 md:gap-6 lg:grid-cols-6"
-            >
-              {techStackData.map((tech) => (
-                <div
-                  key={tech.id}
-                  className="flex w-full flex-col items-center rounded-xl bg-white shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-xl md:max-w-[150px] md:p-4"
-                >
-                  <p>
-                    <img
-                      className="w-10 cursor-pointer items-center p-2 transition-all duration-500 hover:scale-125 md:w-12"
-                      src={tech.icon}
-                      alt="image"
-                    />
-                  </p>
-                  <p className="pb-2 text-center text-sm font-medium leading-tight text-gray-800 sm:text-base md:mt-4 md:pb-0">
-                    {tech.name}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </main>
+  return (
+    <section id="skills" className="py-10 bg-[#0b0f19] text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        {/* Section Header */}
+        <div className="max-w-3xl mb-10 text-left">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-blue-500/10 border border-blue-500/20 text-xs font-mono text-blue-400 mb-3">
+            <Cpu className="w-3.5 h-3.5" />
+            <span>TECHNICAL PROFICIENCY</span>
+          </div>
+          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
+            Categorized Technical Stack
+          </h2>
+          <p className="mt-3 text-base sm:text-lg text-slate-400 leading-relaxed">
+            Prioritized engineering toolkit centered on modern frontend development, state architectures, and robust web delivery.
+          </p>
         </div>
+
+        {/* 4 Categorized Columns / Cards */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {categorizedSkills.map((category, idx) => {
+            const Icon = categoryIcons[idx % categoryIcons.length];
+            return (
+              <div
+                key={category.title}
+                className="rounded-2xl bg-slate-900/80 border border-slate-800/90 p-6 sm:p-8 hover:border-slate-700 transition-all duration-300 shadow-md flex flex-col justify-between"
+              >
+                <div>
+                  {/* Category Header */}
+                  <div className="flex items-center gap-3.5 mb-2">
+                    <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400">
+                      <Icon className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <h3 className="text-xl font-bold text-white">
+                        {category.title}
+                      </h3>
+                      <p className="text-xs text-slate-400">
+                        {category.subtitle}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Skills List within this Category */}
+                  <div className="mt-6 divide-y divide-slate-800/80">
+                    {category.skills.map((skill) => (
+                      <div
+                        key={skill.name}
+                        className="py-3.5 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 sm:gap-4"
+                      >
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm font-bold text-slate-100">
+                            {skill.name}
+                          </span>
+                          <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-slate-800 text-blue-400 border border-slate-700/60">
+                            {skill.level}
+                          </span>
+                        </div>
+                        <p className="text-xs text-slate-400 sm:text-right max-w-sm">
+                          {skill.description}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="mt-6 pt-4 border-t border-slate-800/60 flex items-center justify-between text-[11px] font-mono text-slate-500">
+                  <span>Production Tested</span>
+                  <span className="text-emerald-400">● Verified Competency</span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
       </div>
-    </>
+    </section>
   );
 }

@@ -1,51 +1,41 @@
-// import Home from "../Home";
-import About from "../About";
-import Experience from "../Experience";
-import Project from "../Project";
-import Footer from "../Footer";
 import Header from "../Header";
 import HomePage from "./HomePage";
-import Skills from "../Skill/Skills";
 import Offers from "../Offer/Offers";
+import Project from "../Project";
+import Experience from "../Experience";
+import Skills from "../Skill/Skills";
+import About from "../About";
+import Footer from "../Footer";
 
-export default function Index() {
+export default function HomeLayout() {
   return (
-    <div className="overflow-hidden">
+    <div className="min-h-screen bg-[#0b0f19] text-slate-100 flex flex-col selection:bg-blue-600 selection:text-white">
+      {/* Sticky Navigation */}
       <Header />
 
-      <div>
-        {/* HOME COMPONENT*/}
-        <div>
-          <HomePage />
-        </div>
+      {/* Main Content Area */}
+      <main className="grow">
+        {/* 1. Hero Section */}
+        <HomePage />
 
-        <div>
-          <Offers />
-        </div>
+        {/* 2. Engineering Capabilities / How I Work */}
+        <Offers />
 
-        <div>
-          <Skills />
-        </div>
+        {/* 3. Featured Projects & Case Studies */}
+        <Project />
 
-        {/* PROJECT COMPONENT*/}
-        <div id="Project" className="my-10">
-          <Project />
-        </div>
+        {/* 4. Professional Engineering Experience */}
+        <Experience />
 
-        {/* EXPERIENCE COMPONENT*/}
-        <div id="Experience">
-          <Experience />
-        </div>
+        {/* 5. Categorized Skills */}
+        <Skills />
 
-        {/* ABOUT COMPONENT */}
-        <div id="About">
-          <About />
-        </div>
-      </div>
+        {/* 6. Professional About & Technical Philosophy */}
+        <About />
+      </main>
 
-      <div id="Footer">
-        <Footer />
-      </div>
+      {/* 7. Footer & Direct Contact */}
+      <Footer />
     </div>
   );
 }
