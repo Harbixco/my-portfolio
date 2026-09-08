@@ -33,7 +33,7 @@ export const projectsData: ProjectCaseStudy[] = [
       "Enterprise-grade corporate digital agency platform showcasing scalable technical solutions, client intake funnels, and verified engineering case studies.",
     image: veltrixhub,
     liveLink: "https://veltrixhub.ng/",
-    githubLink: "https://github.com/Harbixco",
+    githubLink: "https://github.com/Harbixco/VeltrixHub",
     techStack: [
       "React",
       "TypeScript",
@@ -62,7 +62,7 @@ export const projectsData: ProjectCaseStudy[] = [
       "Enterprise-grade learning management system featuring role-based portals, protected coursework delivery, and real-time student-tutor workflows.",
     image: numace,
     liveLink: "https://numaceproject.vercel.app/",
-    githubLink: "https://github.com/Harbixco",
+    githubLink: "https://github.com/Harbixco/umace-project",
     techStack: [
       "React",
       "TypeScript",
@@ -94,8 +94,8 @@ export const projectsData: ProjectCaseStudy[] = [
     tagline:
       "Prestigious corporate legal website featuring structured practice area overviews, attorney highlights, and direct consultation scheduling.",
     image: lawfirm,
-    liveLink: "https://dove-five.vercel.app/",
-    githubLink: "https://github.com/Harbixco",
+    liveLink: "https://law-firm-blush.vercel.app/",
+    githubLink: "https://github.com/Harbixco/Law-firm",
     techStack: [
       "React",
       "TypeScript",
@@ -124,7 +124,7 @@ export const projectsData: ProjectCaseStudy[] = [
       "Modern agribusiness web platform showcasing sustainable farming operations, produce catalogs, and corporate partnership channels.",
     image: walexfarms,
     liveLink: "https://agrowalexfarms.vercel.app/",
-    githubLink: "https://github.com/Harbixco",
+    githubLink: "https://github.com/Harbixco/walexfarms",
     techStack: [
       "React",
       "JavaScript",
@@ -176,7 +176,7 @@ export const projectsData: ProjectCaseStudy[] = [
       "Responsive gadget retail application with real-time specification filtering, search indexing, and client-side cart persistence.",
     image: affordable,
     liveLink: "https://affordablegadgetshub.vercel.app/",
-    githubLink: "https://github.com/Harbixco",
+    githubLink: "https://github.com/Harbixco/affordablegadgetshub",
     techStack: ["React", "TypeScript", "Tailwind CSS", "LocalStorage", "Vercel"],
     problem:
       "Electronics shoppers demand instantaneous product comparisons and filter responsiveness across specifications without tedious page reloads.",
@@ -199,7 +199,7 @@ export const projectsData: ProjectCaseStudy[] = [
       "Real-time multilingual translation utility built with resilient async API integration and input debouncing.",
     image: translator,
     liveLink: "https://language-translators-zeta.vercel.app/",
-    githubLink: "https://github.com/Harbixco",
+    githubLink: "https://github.com/Harbixco/Language-Translator",
     techStack: ["React", "RESTful APIs", "Tailwind CSS", "Vercel"],
     problem:
       "Translating text quickly between languages often suffers from slow network latency, API rate-limit lockouts, and cluttered interfaces.",
