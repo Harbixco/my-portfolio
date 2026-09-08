@@ -59,13 +59,27 @@ export default function ProjectSection() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             {/* Left: Project Media & Tech Architecture */}
             <div className="lg:col-span-6 flex flex-col gap-5">
-              <div className="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl bg-slate-950 group">
-                <img
-                  src={flagshipProject.image}
-                  alt={flagshipProject.title}
-                  className="w-full aspect-[16/9] object-cover transition-transform duration-500 group-hover:scale-102"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
+              <div className="relative rounded-2xl overflow-hidden border border-slate-700/80 shadow-2xl bg-[#070b14] group flex flex-col">
+                {/* Browser window top bar */}
+                <div className="px-3.5 py-2 bg-slate-950 border-b border-slate-800/80 flex items-center justify-between">
+                  <div className="flex items-center gap-1.5">
+                    <span className="w-2.5 h-2.5 rounded-full bg-red-500/70" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-amber-500/70" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-emerald-500/70" />
+                  </div>
+                  <div className="text-[11px] font-mono text-slate-400 bg-slate-900 px-3 py-0.5 rounded border border-slate-800/80">
+                    {flagshipProject.liveLink ? flagshipProject.liveLink.replace("https://", "").replace(/\/$/, "") : flagshipProject.title}
+                  </div>
+                  <div className="w-8" />
+                </div>
+                {/* Image Container with complete fit */}
+                <div className="relative w-full aspect-[2/1] bg-[#070b14] flex items-center justify-center overflow-hidden">
+                  <img
+                    src={flagshipProject.image}
+                    alt={flagshipProject.title}
+                    className="w-full h-full object-contain object-center transition-transform duration-500 group-hover:scale-[1.02]"
+                  />
+                </div>
               </div>
 
               {/* Architectural Breakdown Grid */}
@@ -190,15 +204,28 @@ export default function ProjectSection() {
                 </button>
 
                 <div className="flex items-center gap-3">
-                  <a
-                    href="https://github.com/Harbixco"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-mono transition-colors"
-                  >
-                    <Github className="w-4 h-4" />
-                    <span>View GitHub</span>
-                  </a>
+                  {flagshipProject.liveLink && (
+                    <a
+                      href={flagshipProject.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-blue-600/20 hover:bg-blue-600/30 border border-blue-500/30 text-blue-300 hover:text-white text-xs font-mono transition-colors"
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                      <span>Live Site</span>
+                    </a>
+                  )}
+                  {flagshipProject.githubLink && (
+                    <a
+                      href={flagshipProject.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-mono transition-colors"
+                    >
+                      <Github className="w-4 h-4" />
+                      <span>View GitHub</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
@@ -224,16 +251,20 @@ export default function ProjectSection() {
                 className="rounded-2xl bg-slate-900/80 border border-slate-800/90 hover:border-slate-700 p-5 flex flex-col justify-between transition-all duration-300 shadow-sm hover:shadow-xl"
               >
                 <div>
-                  {/* Thumbnail */}
-                  <div className="relative rounded-xl overflow-hidden border border-slate-800 aspect-[16/10] bg-slate-950 mb-4 group">
+                  {/* Category Pill above thumbnail - never covers website header */}
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="inline-flex items-center px-2.5 py-1 rounded-md bg-blue-500/10 border border-blue-500/20 text-[11px] font-mono text-blue-400 font-medium">
+                      {project.category}
+                    </span>
+                  </div>
+
+                  {/* Thumbnail with 2:1 aspect ratio and object-contain so NO text or UI is cropped */}
+                  <div className="relative rounded-xl overflow-hidden border border-slate-800/90 aspect-[2/1] bg-[#070b14] mb-4 group flex items-center justify-center">
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+                      className="w-full h-full object-contain object-center transition duration-300 group-hover:scale-105"
                     />
-                    <div className="absolute top-2 left-2 px-2.5 py-1 rounded-md bg-slate-950/80 backdrop-blur-sm border border-slate-800 text-[10px] font-mono text-blue-400">
-                      {project.category}
-                    </div>
                   </div>
 
                   {/* Title & Tagline */}
