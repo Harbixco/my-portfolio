@@ -12,7 +12,7 @@ export const experiences: ExperienceItem[] = [
   {
     company: "NimbleByte Global",
     role: "Front End Developer",
-    period: "Nov 2023 - April 2024",
+    period: "Nov 2023 - April 2026",
     location: "Lagos State, Nigeria",
     type: "Remote",
     achievements: [
